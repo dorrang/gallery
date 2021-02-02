@@ -29,9 +29,11 @@ h6 {
     text-transform: uppercase;
 }
 
-i {
+#services i {
     background-image: url(../img/giphy1.gif);
     border-radius: 50%;
+    max-width: 125px;
+    max-height: 125px;
 }
 
 section {
@@ -88,7 +90,7 @@ body {
     right: 3%;
     height: 50px;
     width: 50px;
-    background: #eee2fc;
+    background-image: url(../img/giphy1.gif);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -96,6 +98,7 @@ body {
     cursor: pointer;
     margin-right: 0;
     transition: all 0.3s ease;
+    color: #e7e7e7;
 }
 
 .offcanvas-btn-open {
@@ -164,7 +167,7 @@ body {
 }
 
 #mainNav .navbar-brand {
-    color: #9d48ff;
+    color: #efedf1;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
@@ -187,7 +190,7 @@ body {
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #9d48ff;
+    color: white;
 }
 
 @media (min-width: 992px) {
@@ -223,7 +226,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/giphy3.gif");
+    background-image: url(../img/giphy7.gif);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -303,7 +306,9 @@ header.masthead .intro-text .intro-heading {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: #7651ff;
+    background-image: url(../img/giphy3.gif);
+    background-position: center;
+    transition: 4s;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
