@@ -29,6 +29,11 @@ h6 {
     text-transform: uppercase;
 }
 
+i {
+    background-image: url(../img/giphy1.gif);
+    border-radius: 50%;
+}
+
 section {
     padding: 100px 0;
 }
@@ -218,7 +223,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/giphy3.gif");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
